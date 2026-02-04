@@ -60,7 +60,6 @@ def plot_bbob_function(func_num, seed=42, range_min=-5, range_max=5, resolution=
     ax.set_xlabel('X')
     ax.set_ylabel('Y')
     ax.set_zlabel('f(x, y)')
-    ax.set_title(f'BBOB Function {func_num} (Seed: {seed})')
 
     # Add color bar
     fig.colorbar(surf, ax=ax, shrink=0.5, aspect=5)

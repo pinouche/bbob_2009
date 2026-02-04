@@ -20,34 +20,36 @@ Example:
 You can also plot any of the implemented functions in 3D (figures are saved in the `plots` folder).
 Currently, the following functions (1-14) are available for plotting in 2D:
 
-1. Sphere Function
-   ![Sphere Function](plots/function_1.png)
-2. Ellipsoidal Function
-   ![Ellipsoidal Function](plots/function_2.png)
-3. Rastrigin Function
-   ![Rastrigin Function](plots/function_3.png)
-4. Büche-Rastrigin Function
-   ![Büche-Rastrigin Function](plots/function_4.png)
-5. Linear Slope Function
-   ![Linear Slope Function](plots/function_5.png)
-6. Attractive Sector Function
-   ![Attractive Sector Function](plots/function_6.png)
-7. Step-ellipsoidal Function
-   ![Step-ellipsoidal Function](plots/function_7.png)
-8. Rosenbrock Function, original
-   ![Rosenbrock Function, original](plots/function_8.png)
-9. Rosenbrock Function, rotated
-   ![Rosenbrock Function, rotated](plots/function_9.png)
-10. Ellipsoidal Function (High Conditioning)
-    ![Ellipsoidal Function (High Conditioning)](plots/function_10.png)
-11. Discus Function
-    ![Discus Function](plots/function_11.png)
-12. Bent Cigar Function
-    ![Bent Cigar Function](plots/function_12.png)
-13. Sharp Ridge Function
-    ![Sharp Ridge Function](plots/function_13.png)
-14. Different Powers Function
-    ![Different Powers Function](plots/function_14.png)
+<table>
+  <tr>
+    <td align="center">1. Sphere Function<br><img src="plots/function_1.png" width="400"></td>
+    <td align="center">2. Ellipsoidal Function<br><img src="plots/function_2.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">3. Rastrigin Function<br><img src="plots/function_3.png" width="400"></td>
+    <td align="center">4. Büche-Rastrigin Function<br><img src="plots/function_4.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">5. Linear Slope Function<br><img src="plots/function_5.png" width="400"></td>
+    <td align="center">6. Attractive Sector Function<br><img src="plots/function_6.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">7. Step-ellipsoidal Function<br><img src="plots/function_7.png" width="400"></td>
+    <td align="center">8. Rosenbrock Function, original<br><img src="plots/function_8.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">9. Rosenbrock Function, rotated<br><img src="plots/function_9.png" width="400"></td>
+    <td align="center">10. Ellipsoidal Function (High Conditioning)<br><img src="plots/function_10.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">11. Discus Function<br><img src="plots/function_11.png" width="400"></td>
+    <td align="center">12. Bent Cigar Function<br><img src="plots/function_12.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">13. Sharp Ridge Function<br><img src="plots/function_13.png" width="400"></td>
+    <td align="center">14. Different Powers Function<br><img src="plots/function_14.png" width="400"></td>
+  </tr>
+</table>
 
 ```bash
 uv run python src/main.py <func_num> --plot [--save <filename>]
