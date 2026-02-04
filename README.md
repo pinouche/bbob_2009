@@ -51,6 +51,7 @@ Currently, the following functions (1-14) are available for plotting in 2D:
   </tr>
 </table>
 
+
 ```bash
 uv run python src/main.py <func_num> --plot [--save <filename>]
 ```
